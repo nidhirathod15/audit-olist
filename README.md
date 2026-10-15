@@ -38,7 +38,7 @@ The data is not included in this repo. Download it yourself and put the CSV file
 
 ---
 
-## What I would recommend
+## Recommendations
 - Flag any payment on an order with no item lines, and check refunds for cancelled or unavailable orders.
 - Run the reconciliation view every day and send the exceptions to a person.
 - Require a category on every product.
@@ -78,7 +78,7 @@ SQL used: joins, CTEs, window functions (LAG, averages and standard deviation ov
 
 ---
 
-## Limits
+## Limitations
 - This is public, old, anonymised data. I can't confirm why anything happened. I can only show what the data supports.
 - There is no refunds table, so refund status is unknown.
 - The instalment-interest explanation is a guess.
